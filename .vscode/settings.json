@@ -2,5 +2,27 @@
     "search.exclude": {
         "**/target": true
     },
-    "lldb.verboseLogging": true
+    "lldb.verboseLogging": true,
+    "editor.cursorSurroundingLines": 5,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "'JetBrains Mono',Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "300",
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineNumbers": "on",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    // "editor.smoothScrolldding": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.wordWrap": "on",
+    "errorLens.fontStyleItalic": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml"
+    ],
 }
