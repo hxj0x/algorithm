@@ -20,10 +20,14 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
+    use std::cmp;
+
     use super::*;
 
     #[test]
     fn test_26() {
+        let mx = cmp::max(1, 2);
+        println!("mx = {}", mx);
         assert_eq!(Solution::remove_duplicates(&mut vec![]), 0);
         let mut vec1 = vec![1, 1, 1, 1, 3];
         assert_eq!(Solution::remove_duplicates(&mut vec1), 2);

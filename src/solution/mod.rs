@@ -1,1 +1,2 @@
 mod s0026_remove_duplicates_from_sorted_array;
+mod s0198_house_robber;
